@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Open+Sans:wght@500;600;800&family=Work+Sans:wght@300;400;500&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* 
+font-family: 'Jost', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+ */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ *{
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+ }
+ a{
+  text-decoration: none;
+ }
 
-.App-header {
-  background-color: #282c34;
+
+  /* .................... */
+/* Background img */
+/* .................... */
+#head {
+  height: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* justify-content: center; */
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.6) url(./images/background.png);
+  background-size: cover;
+  background-blend-mode: overlay;
   color: white;
+  z-index: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-content {
+  justify-content: center;
+  margin: 20px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-heading h1{
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #000;
+  transition: transform 0.3s ease-in-out;
 }
+
+.page-heading h1:hover{
+  transform: scale(1.2) rotate(360deg);
+}
+
+
+
+ .input-fieldheading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+
+
+
+
+
