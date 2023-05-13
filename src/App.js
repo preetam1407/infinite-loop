@@ -9,15 +9,12 @@ function App() {
         <div className="banner-content">
           <div className="page-heading">
             <h1>INFINITE LOOP </h1> 
-            </div>
-            </div>
-            <div className='input-fieldheading'>
-            <InputField/>
-
-            <OutputField/> 
-            </div> 
-            
-        
+          </div>
+        </div>
+        <div className='input-fieldheading'>
+          <InputField/>
+          <OutputField/> 
+        </div>   
       </header>
     </div>
   );

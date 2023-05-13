@@ -15,6 +15,6 @@ export const inputSlice = createSlice({
   },
 });
 
-export const { setInputValue, clearInputValue } = inputSlice.actions;
+export const { setInputValue, clearInputValue} = inputSlice.actions;
 
 export default inputSlice.reducer;

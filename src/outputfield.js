@@ -14,22 +14,20 @@ const OutputField = () => {
   };
 
   return (
-   
-
-<div>
-<header id="inputheading">
-  <div className='inputhead'>
-    <h2>Output</h2> 
-  </div>
-  <div className="input">  
-  <input type="text" placeholder="Output" value={outputValue} readOnly />
-  </div>
-  <div className='button'>
-  <button onClick={handleShowButtonClick}>Show</button>
-  <button onClick={handleClearButtonClick}>Clear</button>
-  </div>
-</header>
-</div>
+    <div>
+      <header id="inputheading">
+        <div className='inputhead'>
+          <h2>Output</h2> 
+        </div>
+        <div className="input">  
+          <input type="text" placeholder="Output" value={outputValue} readOnly />
+        </div>
+        <div className='button'>
+          <button onClick={handleShowButtonClick}>Show</button>
+          <button onClick={handleClearButtonClick}>Clear</button>
+        </div>
+      </header>
+    </div>
   );
 };
 
